@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1 class="title">Department of the Treasury Website Redesign</h1>
+    <div class="container">
+        <div>
+            <ul class="nav flex-column">
+                <li><h1 class="contents">Contents</h1></li>
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Introduction</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="research.html">Research</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="problem.html">The Problem</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="iterations.html">Iterations</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="prototype.html">Prototype</a>
+                </li>
+            </ul>
+        </div>
+        <div class="maincontent">
+            <h2 class="label">Heuristics Evaluation</h2>
+            <p class="break">To start, I conducted a preliminary evaluation of the US Treasury website and looked for obvious heuristics issues.</p> 
+            <img src="images/heuristic.png" width="900" height="600">
+            <h3>Key Points:</h3>
+            <p>• No obvious indication of the purpose of the site on homepage</p>
+            <p>• Vague header sections</p>
+            <p>• Wordy, unclear text</p>
+            <p>• Links are not differentiated from static text</p>
+            <p>• Navigational dead ends, no way to return to last page</p>
+            <p class="break">• Many important functions are located on external sites, which is not indicated</p>
+            <h2 class="label">Proto Persona</h2>
+            <p class="break">What would be a typical use case for a visitor to the Treasury Site? What sort of limitations might they have? I wrote a proto persona to create a representation.</p>
+            <img src="images/irene.png" width="900" height="600">
+            <h2 class="label">Site Map</h2>
+            <p class="break">Next, I created a rough map of the current treasury site, focusing specifically on the main navigation bar and each of it’s subsections. Many links under the header lead to external sites (marked in green) but these are not differentiated from pages on the main site, marked in blue</p>
+            <h2 class="label">User Path</h2>
+            <p class="break">To test the clarity and navigability of the Treasury site, I tasked 5 users with locating a specific form relating to transferring treasury bonds. To do this, users need to navigate to TreasuryDirect, a sister site of the main treasury site. A key question I was looking to answer was whether content being located on external sites acts as a barrier to users. A page by page breakdown of one of the possible paths from the homepage to the required form is below.</p>
+            <img src="images/userpath.png" width="900" height="600">
+            <h3>Key Points:</h3>
+            <p>• Most testers guessed that the correct link was under the “services” header, but this wasn’t immediately obvious</p>
+            <p>• Most testers were confused when they were directed to an external site, and questioned if they had made the correct choice</p>
+            <p>• It was unclear for some testers if they had had to create an account to access bond management tools</p>
+            <p>• The search feature does not provide relevant pages even when searching for keywords like “bonds” and “transfer”</p>
+            <p>• In all cases, testers commented on the length and difficulty of the process</p>
+            <div class="bottomnav">
+                <button class="prevnext" onclick=location.href="index.html"; type="button">&lt; Previous</button>
+                <button class="prevnext" onclick=location.href="problem.html"; type="button">Next &gt;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
